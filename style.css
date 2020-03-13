@@ -3,6 +3,8 @@
 .brandstyle{
     background-color: lightseagreen;
     color: white;
+    font-size: 20px;
+    font-weight: bold;
     
 }
 
@@ -13,13 +15,14 @@ body{
 }
 
 
-.container{
-          display: flex; /* or inline-flex */
-          justify-content:center;
-          margin-top: 100px;
-          padding-right: 60px;
-          font-family: "Times New Roman", Times, serif;
-          
+
+.container-style{
+    display: flex; /* or inline-flex */
+    justify-content:center;
+    margin-top: 10px;
+    padding-right: 60px;
+    font-family: "Times New Roman", Times, serif;
+
 }
 
 
@@ -37,6 +40,12 @@ body{
 
 
 
+.card-styly{
+    size:350%*350%;
+}
+
+
+
 
 .content-color{
     background-color: white;
@@ -49,6 +58,12 @@ h1 {
                 }
 
 
+.card-style{
+    padding: 1.25rem;
+    border-color: transparent;
+}
+
+
 
 
 .contactstyle {
@@ -56,12 +71,22 @@ h1 {
   font-weight: bold;
   margin:10px;
   color:lightseagreen;   
+  border-bottom: 1.5px solid lightgray;
+  
   
 }
 
 img{
     float: left;
 }
+
+
+.cardstyle{
+    height:42;
+    width:42;
+}
+
+
 
 footer{
     position: absolute;
