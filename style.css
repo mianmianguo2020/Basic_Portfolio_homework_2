@@ -1,17 +1,10 @@
-.header-style{
-    color: white;
-    text-align: center;
+
+
+.brandstyle{
     background-color: lightseagreen;
-    height: 80px;
-    width: 100%;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 30px;
-    font-weight: 500;
+    color: white;
     
 }
-
-
-
 
 
 body{
@@ -24,12 +17,29 @@ body{
           display: flex; /* or inline-flex */
           justify-content:center;
           margin-top: 100px;
+          padding-right: 60px;
+          font-family: "Times New Roman", Times, serif;
           
 }
 
 
+
+
+.navstyle{
+    background-color: white;
+   
+}
+
+.style-form{
+    border-top: 2px solid lightgray;
+  
+}
+
+
+
+
 .content-color{
-    background-color: linen;
+    background-color: white;
 }
 
 
@@ -38,9 +48,16 @@ h1 {
     font-family:verdana;      
                 }
 
-h2 {
-color:lightseagreen            
-}   
+
+
+
+.contactstyle {
+
+  font-weight: bold;
+  margin:10px;
+  color:lightseagreen;   
+  
+}
 
 img{
     float: left;
@@ -49,7 +66,8 @@ img{
 footer{
     position: absolute;
     bottom: 0;
-    color: grey;
+    color: lightgray(77, 72, 72);
+    background-color: rgb(77, 72, 72);
     border-top: 4px solid lightgreen;
     width: 100% ;
 }
