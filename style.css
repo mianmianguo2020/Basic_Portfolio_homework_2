@@ -5,6 +5,7 @@
     color: white;
     font-size: 20px;
     font-weight: bold;
+    margin-left:30%;
  
 
 }
@@ -51,6 +52,7 @@ body{
 
 .content-color{
     background-color: white;
+    padding-bottom: 10px;
 }
 
 
@@ -69,12 +71,26 @@ h1 {
 
 
 .contactstyle {
-
   font-weight: bold;
   color:lightseagreen;   
-  display: inline-block;
-  margin-top: 13px;
+  margin-top: 10px;
 }
+
+
+.protfoliostyle {
+    font-weight: bold;
+    color:lightseagreen;   
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+
+.buttoncolor{
+    background-color: lightseagreen;
+}
+
+
+
 
 img{
     float: left;
@@ -88,7 +104,7 @@ img{
 
 
 
-footer{
+.footerbottom{
     position: absolute;
     bottom: 0;
     color: lightgray(77, 72, 72);
@@ -96,3 +112,19 @@ footer{
     border-top: 4px solid lightgreen;
     width: 100% ;
 }
+
+
+.footerstyle{
+    background-color: rgb(60, 61, 61);
+    color: lightgray(77, 72, 72);
+    border-top: 4px solid lightgreen;
+}
+
+.card{
+    border: none;
+}
+
+.no-left-padding {
+    padding-left: 0px;
+}
+
