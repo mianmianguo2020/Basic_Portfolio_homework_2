@@ -43,9 +43,6 @@ body{
 
 
 
-.card-styly{
-    size:350%*350%;
-}
 
 
 
@@ -118,6 +115,9 @@ img{
     background-color: rgb(60, 61, 61);
     color: lightgray(77, 72, 72);
     border-top: 4px solid lightgreen;
+    position: absolute;
+    width: 100%;
+ 
 }
 
 .card{
